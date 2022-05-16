@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\items\wep_test_pickups_proxy_sheet03_armor_d"
+	"$bumpmap"	"models\items\normals"
+     "$phongexponenttexture"		"models\items\wep_test_pickups_proxy_sheet03_armor_e"
+	"$color2"	"[0.2 0.2 0.2]"
+	"$blendTintByBaseAlpha"	"0"
+	
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" ".3"	
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$halflambert" "0"
+
+	"$envmap"	"env_cubemap"
+	"$envmaptint"	"[ .13 .13 .13 ]"
+
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2"	
+
+}
