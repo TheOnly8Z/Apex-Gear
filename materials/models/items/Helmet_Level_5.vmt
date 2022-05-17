@@ -4,7 +4,7 @@
 	"$bumpmap"	"models\items\w_loot_wep_iso_helmet_energy_01_dynamic_n"
      "$phongexponenttexture"		"models\items\wep_test_pickups_proxy_sheet03_armor_e"
 	"$detail"		"models\items\w_loot_wep_iso_armor_energy_01_dynamic_detail"
-	"$color2"	"[1 0.1 0]"
+	"$color2"	"[1 0.8 0]"
 	"$blendTintByBaseAlpha"	"1"
 	
 	"$normalmapalphaenvmapmask" 1
