@@ -41,7 +41,10 @@ end
 
 if SERVER then
     function ENT:Use(ply)
-
+        local gear = ApexGear.Gear[ApexGear.GearID[self:GetGearID()] or ""]
+        ply:RemoveApexGear(gear.slot)
+        ply:SetApexGear(self:GetGearID())
+        self:Remove()
     end
 elseif CLIENT then
     function ENT:DrawTranslucent()
