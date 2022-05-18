@@ -1,4 +1,4 @@
-"Vertexlitgeneric"
+"unlitgeneric"
 {
 	"$basetexture" "models\items\w_loot_wep_iso_armor_energy_01_dynamic_d"
 	"$bumpmap"	"models\items\w_loot_wep_iso_armor_energy_01_dynamic_n"
@@ -14,8 +14,6 @@
 	"$envmaptint" "[.02 .02 .02]"
 
 	"$phong" 		"1"
-	"$phongalbedotint" 			"1"
-	"$phongalbedoboost" "35"
 	"$phongboost" "30"
 	"$phongfresnelranges" "[1.5 4.7 8.7]"
 
@@ -23,16 +21,18 @@
 	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
 	"$rimlightboost" "2"
 
-	"$detailblendmode" "1"
 	"$detailframe"	"0"
+	"$detailscale"                    "3"
+	"$detailblendfactor" 		"10"
+	"$detailblendmode"			"8"
 
 	Proxies
 	{
 		TextureScroll
 		{
 			textureScrollVar	$detailtexturetransform
-			textureScrollRate	50
-			textureScrollAngle 	180
+			textureScrollRate	0.15
+			textureScrollAngle 	-90
 		}
 	}
 }
